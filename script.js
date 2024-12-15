@@ -3,7 +3,7 @@ function checkCode(){
         alert("Welcome back oofy!")
         document.getElementById("passwordScreen").style.display = 'none';
         document.getElementById("container").style.display= 'block';
-       
+        document.getElementById("codeInput").value == "";
     } else {
         alert("Wrong code!!!!!")
     }
