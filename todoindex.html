@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biggy's To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="passwordScreen">
+        <h2 id="heading1">Please enter the secret code</h2>
+        <input id="codeInput" placeholder="bearbear">
+        <button onclick="checkCode()" id="button1">Enter</button>
+        <br>
+        <br>
+        <img src="arcticwolf.jpg" id="arcticwolf">
+    </div>
+
+    <div class="container" style="display: none;" id="container">
+       <div class="todo-app">
+        <h2>Biggy's To-Do List</h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your oofy stuff">
+            <button onclick="addTask()" id="button2">Add</button>
+        </div>
+        <ul id="list-container">
+        
+        </ul>
+       </div> 
+    </div>
+    
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
