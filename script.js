@@ -1,3 +1,4 @@
+document.getElementById("codeInput").value = '';
 function checkCode(){
     if(document.getElementById("codeInput").value == "Nibbles"){
         alert("Welcome back oofy!")
